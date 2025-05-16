@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/mnt/data/RMS_spectrumanalyse.csv', comment='#')
+df = pd.read_csv('/mnt/data/Spektrumsanalyse_av_utgangssignal.csv', comment='#')
 
 frekvens_kol = 'Frequency (Hz)'
 rms_kol = 'Trace 2 (V)'
