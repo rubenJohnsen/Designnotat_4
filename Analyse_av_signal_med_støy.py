@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/mnt/data/Spek.csv', comment='#')
+df = pd.read_csv('/mnt/data/Analyse_av_signal_med_støy.csv', comment='#')
 
 tid = 'Time (s)'
 ch1 = 'Channel 1 (V)'
